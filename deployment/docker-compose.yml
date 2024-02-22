@@ -32,8 +32,8 @@ services:
     environment:
       MYSQL_DATABASE: 'events'
       MYSQL_USER: 'user'
-      MYSQL_PASSWORD: 'password'
-      MYSQL_ROOT_PASSWORD: 'password'
+      MYSQL_PASSWORD: 'Password'
+      MYSQL_ROOT_PASSWORD: 'Password'
     ports:
       - '3306:3306'
     expose:
